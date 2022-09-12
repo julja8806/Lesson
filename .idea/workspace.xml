@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75e7b6d7-7193-4f52-b307-20760dd2fbf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task01.java" afterDir="false" />
+    <list default="true" id="75e7b6d7-7193-4f52-b307-20760dd2fbf9" name="Changes" comment="Cards and suit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,28 @@
       <option name="presentableId" value="Default" />
       <updated>1662960449727</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cards and suit">
+      <created>1662965261348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662965261348</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Cards and suit">
+      <created>1662965429568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662965429568</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cards and suit">
+      <created>1662965765303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662965765303</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cards and suit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cards and suit" />
   </component>
 </project>
