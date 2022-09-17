@@ -5,10 +5,7 @@ public class Task05 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input your number: ");
 
-        char n1 = scanner.next().charAt(0);
-        char n2 = scanner.next().charAt(1);
-        char n3 = scanner.next().charAt(2);
-        String res = "Error";
+        int n = scanner.nextInt();
 
         switch (n1) {
             case '1':

@@ -15,7 +15,7 @@ public class Task03 {
         case 'B':  case'C': case'D': case'H': case'G': case 'J':  case'K': case'L': case'M': case'N':
         case 'P':  case'Q': case'R': case'S': case'T': case 'V':  case'W': case'X': case'Y':case'Z':
         feedback = "This letter is consonant";break;
-        default: feedback = "It is not letter";break;
+        default: feedback = "It is no letter";break;
         } System.out.println(feedback);
         scanner.close();
     }
