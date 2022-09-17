@@ -4,77 +4,146 @@ import java.util.Scanner;
 public class Task02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите свой возраст: ");
-//String feedback = "Error";
-        String age = scanner.nextLine();
-        String age2 = scanner.nextLine();
-        String age3 = scanner.nextLine();
+        System.out.println("Input your age: ");
 
-//        switch (age2) {
-//            case "1":
-//                System.out.print("один");
-//                break;
-//            case "2":
-//                System.out.print("два");
-//                break;
-//            case "3":
-//                System.out.print("три ");
-//                break;
-//            case "4":
-//                System.out.print("четыре");
-//                break;
-//            case "5":
-//                System.out.print("пять");
-//                break;
-//            case "6":
-//                System.out.print("шесть");
-//                break;
-//            case "7":
-//                System.out.print("семь");
-//                break;
-//            case "8":
-//                System.out.print("восемь");
-//                break;
-//            case "9":
-//                System.out.print("девять");
-//                break;
-//            case "10":
-//                System.out.print("десять");
-//                break;}
+        String feedback = "";
+        int age = scanner.nextInt();
 
-            switch (age){
-                case "2":
-                    System.out.print("двадцать");
+
+        if (age < 20) {
+            switch (age) {
+                case 1:
+                    feedback = "one";
                     break;
-                case "3":
-                    System.out.print("тридцать");
+                case 2:
+                    feedback = "two";
                     break;
-                case "4":
-                    System.out.print("сорок");
+                case 3:
+                    feedback = "three";
                     break;
-                case "5":
-                    System.out.print("пятьдесят");
+                case 4:
+                    feedback = "four";
                     break;
-                case "6":
-                    System.out.print("шестьдесят");
+                case 5:
+                    feedback = "five";
                     break;
-                case "7":
-                    System.out.print("семьдесят");
+                case 6:
+                    feedback = "six";
                     break;
-                case "8":
-                    System.out.print("восемьдесят");
+                case 7:
+                    feedback = "seven";
                     break;
-                case "9":
-                    System.out.print("девяносто");
+                case 8:
+                    feedback = "eight";
                     break;
-                case "10":
-                    System.out.print("сто");
+                case 9:
+                    feedback = "nine";
                     break;
-                default:System.out.print("error");
+                case 10:
+                    feedback = "ten";
+                    break;
+                case 11:
+                    feedback = "eleven";
+                    break;
+                case 12:
+                    feedback = "twelve";
+                    break;
+                case 13:
+                    feedback = "thirteen";
+                    break;
+                case 14:
+                    feedback = "fourteen";
+                    break;
+                case 15:
+                    feedback = "fifteen";
+                    break;
+                case 16:
+                    feedback = "sixteen";
+                    break;
+                case 17:
+                    feedback = "seventeen";
+                    break;
+                case 18:
+                    feedback = "eighteen";
+                    break;
+                case 19:
+                    feedback = "nineteen";
+                    break;
+            }
+        } else if (age < 100 && age % 10 != 0) {
+            switch (age / 10) {
+                case 2:
+                    feedback = "twenty " + feedback;
+                    break;
+                case 3:
+                    feedback = "thirty " + feedback;
+                    break;
+                case 4:
+                    feedback = "forty " + feedback;
+                    break;
+                case 5:
+                    feedback = "fifty " + feedback;
+                    break;
+                case 6:
+                    feedback = "sixty " + feedback;
+                    break;
+                case 7:
+                    feedback = "seventy " + feedback;
+                    break;
+                case 8:
+                    feedback = "eighty " + feedback;
+                    break;
+                case 9:
+                    feedback = "ninety " + feedback;
+                    break;
+
+                case 10:
+                    feedback = "one hundred " + feedback;
+                    break;
+            }
+
+
+        } else {
+
+            switch (age / 10) {
+                case 2:
+                    feedback = "twenty ";
+                    break;
+                case 3:
+                    feedback = "thirty ";
+                    break;
+                case 4:
+                    feedback = "forty ";
+                    break;
+                case 5:
+                    feedback = "fifty ";
+                    break;
+                case 6:
+                    feedback = "sixty ";
+                    break;
+                case 7:
+                    feedback = "seventy ";
+                    break;
+                case 8:
+                    feedback = "eighty ";
+                    break;
+                case 9:
+                    feedback = "ninety ";
+                    break;
+            }
+        }
+                if (age > 100) {
+                    switch (age / 100) {
+                        case 1:
+                            feedback = "one hundred " + feedback;
+                            break;
+                    }
+                }
+                System.out.print(feedback + " years");
             }
 
         }
-        }
+
 
 
 
