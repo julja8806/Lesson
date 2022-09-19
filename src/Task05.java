@@ -6,101 +6,165 @@ public class Task05 {
         System.out.println("Input your number: ");
 
         int n = scanner.nextInt();
+        
+        if (n < 20) {
+            switch (n) {
+                case 1:
+                    feedback = "one";
+                    break;
+                case 2:
+                    feedback = "two";
+                    break;
+                case 3:
+                    feedback = "three";
+                    break;
+                case 4:
+                    feedback = "four";
+                    break;
+                case 5:
+                    feedback = "five";
+                    break;
+                case 6:
+                    feedback = "six";
+                    break;
+                case 7:
+                    feedback = "seven";
+                    break;
+                case 8:
+                    feedback = "eight";
+                    break;
+                case 9:
+                    feedback = "nine";
+                    break;
+                case 10:
+                    feedback = "ten";
+                    break;
+                case 11:
+                    feedback = "eleven";
+                    break;
+                case 12:
+                    feedback = "twelve";
+                    break;
+                case 13:
+                    feedback = "thirteen";
+                    break;
+                case 14:
+                    feedback = "fourteen";
+                    break;
+                case 15:
+                    feedback = "fifteen";
+                    break;
+                case 16:
+                    feedback = "sixteen";
+                    break;
+                case 17:
+                    feedback = "seventeen";
+                    break;
+                case 18:
+                    feedback = "eighteen";
+                    break;
+                case 19:
+                    feedback = "nineteen";
+                    break;
+            }
+        } else if (n < 100 && age % 10 != 0) {
+            switch (n / 10) {
+                case 2:
+                    feedback = "twenty " + feedback;
+                    break;
+                case 3:
+                    feedback = "thirty " + feedback;
+                    break;
+                case 4:
+                    feedback = "forty " + feedback;
+                    break;
+                case 5:
+                    feedback = "fifty " + feedback;
+                    break;
+                case 6:
+                    feedback = "sixty " + feedback;
+                    break;
+                case 7:
+                    feedback = "seventy " + feedback;
+                    break;
+                case 8:
+                    feedback = "eighty " + feedback;
+                    break;
+                case 9:
+                    feedback = "ninety " + feedback;
+                    break;
 
-        switch (n1) {
-            case '1':
-                res = "one hundred";
-                break;
-            case '2':
-                res = "two hundred";
-                break;
-            case '3':
-                res = "three hundred";
-                break;
-            case '4':
-                res = "four hundred";
-                break;
-            case '5':
-                res = "five hundred";
-                break;
-            case '6':
-                res = "six hundred";
-                break;
-            case '7':
-                res = "seven hundred";
-                break;
-            case '8':
-                res = "eight hundred";
-                break;
-            case '9':
-                res = "nine hundred";
-                break;
+                case 10:
+                    feedback = "one hundred " + feedback;
+                    break;
+            }
 
+
+        } else {
+
+            switch (n / 10) {
+                case 2:
+                    feedback = "twenty ";
+                    break;
+                case 3:
+                    feedback = "thirty ";
+                    break;
+                case 4:
+                    feedback = "forty ";
+                    break;
+                case 5:
+                    feedback = "fifty ";
+                    break;
+                case 6:
+                    feedback = "sixty ";
+                    break;
+                case 7:
+                    feedback = "seventy ";
+                    break;
+                case 8:
+                    feedback = "eighty ";
+                    break;
+                case 9:
+                    feedback = "ninety ";
+                    break;
+            }
         }
-
-        switch (n2) {
-            case '1':
-                res = "ten";
-                break;
-            case '2':
-                res = "eleven";
-                break;
-            case '3':
-                res = "twelve";
-                break;
-            case '4':
-                res = "four hundred";
-                break;
-            case '5':
-                res = "five hundred";
-                break;
-            case '6':
-                res = "six hundred";
-                break;
-            case '7':
-                res = "seven hundred";
-                break;
-            case '8':
-                res = "eight hundred";
-                break;
-            case '9':
-                res = "nine hundred";
-                break;
-        }
-    }
+                if (n > 100) {
+                    switch (n / 100) {
+                case 1:
+                            feedback = "one hundred " + feedback;
+                            break;
+                case 2:
+                            feedback = "two hundred " + feedback;
+                            break;
+                case 3:
+                    feedback = "three hundred " + feedback;
+                    break;
+                case 4:
+                    feedback = "four hundred " + feedback;
+                    break;
+                case 5:
+                    feedback = "five hundred " + feedback; 
+                    break;
+                case 6:
+                    feedback = "six hundred " + feedback;
+                    break;
+                case 7:
+                    feedback = "seven hundred " + feedback;
+                    break;
+                case 8:
+                    feedback = "eight hundred " + feedback;
+                    break;
+                case 9:
+                    feedback = "nine hundred " + feedback;
+                    break;
+                    }
+                }
 }
 
-//            switch (n3) {
-//                case '1':
-//                    res = "-one";
-//                    break;
-//                case '2':
-//                    res = "-two";
-//                    break;
-//                case '3':
-//                    res = "-three";
-//                    break;
-//                case '4':
-//                    res = "-four";
-//                    break;
-//                case '5':
-//                    res = "-five";
-//                    break;
-//                case '6':
-//                    res = "-six";
-//                    break;
-//                case '7':
-//                    res = "-seven";
-//                    break;
-//                case '8':
-//                    res = "-eight";
-//                    break;
-//                case '9':
-//                    res = "-nine";
-//            }
-//            System.out.println(res);
-//        }
+           System.out.println(res);
+       }
 
-
+}
 
 
